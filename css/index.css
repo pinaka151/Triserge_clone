@@ -187,7 +187,7 @@ nav{
 
 .main-content-down p{
   width: 45vw;
-  font-size: 22px;
+  font-size: 20px;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -198,11 +198,11 @@ nav{
 
 
 .hero-container img{
-  width: 25vw;
-  height: 30vh;
+  width: 23vw;
+  height: 33vh;
   border-radius: 30px;
   position: relative;
-  bottom: 50px;
+  bottom: 90px;
 }
 
 .main-content-down{
@@ -227,7 +227,7 @@ align-items: center;
 
 .service-content{
   margin-top: 50px;
-width: 90vw;
+width: 92vw;
 /* background-color: red; */
 height: 130vh;
 display: flex;
@@ -269,8 +269,8 @@ align-items: center;
   width: 26vw;
   height: 16vw;
   /* border: 2px solid red; */
-  background-color: #0a0a17;
-  margin-left: 95px;
+  background-color: var(--tertiary-color);
+  margin-left: 86px;
   border-radius: 15px;
   position: relative;
   margin-top: 80px;
@@ -278,14 +278,7 @@ align-items: center;
 }
 
 
-.card-container:hover{
-  background-color:#0a0a24 ;
-  transition:all 2s ease-out;
-  cursor: pointer;
-  /* background-image: url("play.svg"); */
-  display: block;
-  border: 4px solid #0404c4;
-}
+
 
 
 
@@ -310,15 +303,9 @@ align-items: center;
   color: grey;
 }
 
-.nav-Events{
-  /* text-decoration: underline; */
-  text-decoration: underline;
-    color: rgb(15, 178, 223);
-    transition: all 0.5s;
-}
 
 .card-text{
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -346,42 +333,17 @@ align-items: center;
 }
 
 .card-container:hover{
-  background-color: rgb(71, 63, 63);
+  background-color: #0a1515;
   cursor: pointer;
   --a:1;
-}
+  /* transition:all 2s ease-out; */
+  cursor: pointer;
+  display: block;
+  border: 2px solid #66FCF1;
 
-.recent-events h1{
-margin: 82px 60px;
-margin-bottom: 0;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
-left: 50px;
-color: #ffffff;
-
-text-shadow: 3px 4px 30px rgb(11, 175, 229) ;
-
-font-family: Lalezar;
-font-size: 36px;
-font-weight: 400;
-text-decoration: underline;
 }
 
 
-
-
-
-
-
-
-.logo{
-  display: flex;
-  width: 20px;
-  height: 60px;
-  align-items: center;
-}
 
 
 
